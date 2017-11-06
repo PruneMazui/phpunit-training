@@ -8,6 +8,6 @@ class HelloWorldTest extends TestCase
 {
     public function testToString()
     {
-        $this->assertEquals('Hello World!', (string)(new HelloWorld()));
+        assertEquals('Hello World!', (string)(new HelloWorld()));
     }
 }
