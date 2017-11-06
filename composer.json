@@ -1,0 +1,9 @@
+{
+    "name": "prune-mazui/phpunit-training",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PruneMazui\\PhpunitTraining\\" : "src"
+        }
+    }
+}
