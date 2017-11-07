@@ -5,4 +5,14 @@
     <testsuite name="Application Test">
         <directory>./tests/src/</directory>
     </testsuite>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+          <log type="coverage-html" target="./report" lowUpperBound="35" highLowerBound="70"/>
+    </logging>
 </phpunit>
